@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+	<header>
+		<a href="#home">Home</a>
+	</header>
+	<main>
+		<section class="page" id="home">
+			<div id="search-form">
+				<div id="search-box">
+					<input type="text">
+				</div>
+				<a href="#search"><button type="submit">FIND A MOVIE</button></a>
+			</div>
+		</section>
+		<section class="page" id="search">
+			<div id="results"></div>
+		</section>
+	</main>
+
+	<script type="text/template" id="movie-row">
+		<div class="movie-row">
+			<span id="title"><%= Title %></span>
+			<span id="year"><%= Year %></span>
+		</div>
+	</script>
+
+
+	<script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
+	<script type="text/javascript" src="bower_components/backbone/backbone-min.js"></script>
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>

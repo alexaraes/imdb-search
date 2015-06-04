@@ -1,0 +1,50 @@
+html {
+  font-family: Lato, Andale Mono, sans-serif;
+  background-color: #8a8a8a;
+  color: #404040;
+  font-size: 20px; }
+
+a:link {
+  text-decoration: none;
+  color: #f4e1ae; }
+
+a:visited {
+  color: #f4e1ae; }
+
+a:hover {
+  color: #404040; }
+
+#search-form {
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+  #search-form input {
+    width: 500px;
+    height: 50px;
+    font-size: 40px;
+    font-family: Lato;
+    color: #f4e1ae;
+    margin-bottom: 20px;
+    background-color: #ebac00;
+    border: 2px solid #f4e1ae;
+    border-radius: 5px; }
+  #search-form button {
+    width: 175px;
+    height: 35px;
+    background-color: #ebac00;
+    border: 2px solid #f4e1ae;
+    border-radius: 15px;
+    color: #f4e1ae;
+    font-size: 20px; }
+
+.movie-row {
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px; }
+  .movie-row #title {
+    font-style: italic; }
+
+/*# sourceMappingURL=styles.css.map */
